@@ -1,5 +1,6 @@
 My excludes
 data/
+utils/
 *.pdf
 *.tiff
 *.tif
