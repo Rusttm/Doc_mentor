@@ -1,0 +1,10 @@
+names:
+- '0'
+- '1'
+- '2'
+- doc_date
+- doc_name
+- doc_type
+nc: 6
+train: /content/datasets/DocumentsRecognition-1/train/images
+val: /content/datasets/DocumentsRecognition-1/valid/images
