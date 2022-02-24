@@ -24,7 +24,7 @@ def list_dir_fls(folder='data', current_folder = True):
         json.dump(answer, outfile)
     return(answer)
 
-print(list_dir_fls(folder='data/umarked'))
+# print(list_dir_fls(folder='data/umarked'))
 
 def rename_files(folder_path = 'data', abs=False):
     list_folders_files = list_dir_fls(folder='data/marked')
@@ -39,4 +39,6 @@ def rename_files(folder_path = 'data', abs=False):
             os.rename(file_path, new_name)
             num += 1
 
-rename_files()
+
+if __name__ == '__main__':
+    print('PyCharm')

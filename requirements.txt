@@ -4,3 +4,5 @@ pandas==1.2.4
 numpy==1.19.5
 scipy==1.7.0
 sklearn2==0.0.13
+pdfminer
+pdf2image
